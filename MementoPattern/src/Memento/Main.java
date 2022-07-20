@@ -8,11 +8,11 @@ public class Main {
     public static void main(String[] args) {
 
         Editor editor = new Editor();
-        editor.write("Like and");
+        editor.write("My Name");
         editor.printText();
-        editor.write("Like and Subscribe");
+        editor.write("My Name is");
         editor.printText();
-        editor.write("Like and Subscribe to Geekific!");
+        editor.write("My name is Sireesan");
         editor.printText();
         editor.undo();
         editor.printText();
